@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 1600px;
+  height: 900px;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: "Roboto";
+  background-color: #efefef;
+}
+
+header {
+  background: url(../img/japantop.jpg) no-repeat center top;
+}
+
+.logo {
+  padding-top: 50px;
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
+  color: white;
+  margin-top: 87px;
+  margin-left: 30px;
+  font-size: 36px;
+  padding-right: 480px;
+}
+
+ul {
+  padding-top: 74px;
+  list-style-type: none;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  
+}
+
+li {
+  margin-right: 40px;
+}
+
+li:hover { border-bottom: 2px solid #000; }
+
+.container {
+  display: flex;
+  width: 0 auto;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+.group {
+  color: white;
+  margin-left: 186px;
+  margin-top: 180px;
+  font-size: 24px;
+  font-family: "Roboto";
+}
+
+span {
+  font-size: 64px;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:15px;
+  padding-right: 15px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 328px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-size: 200% auto;
+  background-color: #a18399;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
+}
